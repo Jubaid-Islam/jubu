@@ -1,0 +1,222 @@
+/* colorib 
+
+animation: bounce 2s infinite ease-in-out;
+    }
+
+    @keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+    50% {
+        transform: translateY(-10px);
+      }
+    }
+*/
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Italiana&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Marmelad&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+FR+Trad+Guides&family=Playwrite+MX+Guides&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Italiana&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Marmelad&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+FR+Trad+Guides&family=Playwrite+MX+Guides&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Italiana&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Marmelad&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+FR+Trad+Guides&family=Playwrite+MX+Guides&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Italiana&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Marmelad&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+FR+Trad+Guides&family=Playwrite+MX+Guides&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+.fontstyle{
+  font-family: "Montserrat", serif;
+  font-weight: 250;
+  font-size: 22px;
+}
+
+.fontstyle2{
+  font-family: "Montserrat", serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.fontstyle3{
+  font-family: "Cormorant Garamond", serif;
+  font-size: 15px;
+}
+
+.fontstyle4{
+  font-family: "Montserrat", serif ;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.fontstyle5{
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
+}
+
+.flex{
+    display: flex;
+}
+
+.block{
+  display: block;
+}
+
+.center{
+    justify-content: center;
+}
+
+.right{
+    justify-content: flex-end;
+}
+
+.aling{
+    align-items: center;
+}
+
+.textaling{
+  text-align: center;
+}
+
+.uline{
+    height: 2px;
+    width: 90px;
+    background: linear-gradient(to right, rgb(55, 93, 189), rgb(157, 183, 232));
+    margin-top: -10px;
+}
+
+h6{
+    margin: 0px;
+    text-align: center;
+    margin-top: 5px;
+    background: linear-gradient(to bottom, #8c9bcd, #0d0d1f);
+    background-clip: text;
+    color: transparent;
+    
+}
+
+h5{
+  margin: 0px;
+  margin-top: 13px;
+  background: linear-gradient(to bottom, #010101, #5959f5);
+  background-clip: text;
+  color: transparent;
+ 
+}
+
+.projectitem a{
+  color: rgb(24, 68, 135);
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+
+.p10{
+    padding: 20px;
+}
+
+.mb0{
+  margin-bottom: 5px;
+}
+
+.m50{
+  margin: 40px 0px;
+}
+
+.mb100{
+  margin-bottom: 100px;
+  
+}
+
+.m25{
+  margin: 25px;
+}
+
+.mt{
+  margin-top: 50px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 500px;
+    
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 800px;
+    height: 700px;
+    
+}
+
+.center2{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.animate{
+
+    animation: bounce 2s infinite ease-in-out;
+}
+    @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+  50% {
+      transform: translateY(-4px);
+    }
+  }
+
+  .animate2{
+    animation: bounce2 2s infinite ease-in-out;
+  }
+
+    @keyframes bounce2 {
+    0%, 100% {
+      transform: translateY(0);
+    }
+  50% {
+      transform: translateY(4px);
+    }
+  }
+
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 970px;
+    width: 900px;
+}
+
+.bg{
+  background-color: #c9d8ec;
+  
+}
+
+.gap5{
+  gap: 20px;
+}
+
+.mt0{
+  margin-top: 0;
+}
+
+.w40{
+ width: 50%;
+}
+
+.p50{
+  padding: 50px 0px 80px 0px;
+}
+
+.gap15{
+  gap: 15px;
+}
+
+.csm{
+  margin-left: 325px;
+}
