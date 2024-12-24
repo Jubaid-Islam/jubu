@@ -86,18 +86,14 @@ h6{
     margin: 0px;
     text-align: center;
     margin-top: 5px;
-    background: linear-gradient(to bottom, #8c9bcd, #0d0d1f);
-    background-clip: text;
-    color: transparent;
+    color: #8c9bcd;
     
 }
 
 h5{
   margin: 0px;
   margin-top: 13px;
-  background: linear-gradient(to bottom, #010101, #5959f5);
-  background-clip: text;
-  color: transparent;
+  color: #8c9bcd;
  
 }
 
